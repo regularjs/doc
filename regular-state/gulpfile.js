@@ -6,7 +6,7 @@ var gulp = require("gulp"),
 gulp.task('build',  shell.task(['gitbook  build ./']));
 
 gulp.task('deploy', ['build'], function () {
-  gulp.src("_book/**/*.*")
+  return gulp.src("_book/**/*.*")
     .pipe(deploy({
       remoteUrl: "https://github.com/regularjs/regular-state"
     }))
