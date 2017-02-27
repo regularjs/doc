@@ -1,0 +1,7 @@
+{
+  "variables": {
+    "regular_url": "http://github.com/regularjs/regular",
+    "state_url": "http://github.com/regularjs/regular",
+    "stateman_url": "http://github.com/leeluolee/stateman"
+  }
+}
