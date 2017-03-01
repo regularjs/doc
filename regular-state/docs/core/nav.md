@@ -147,5 +147,5 @@ manager.go('app.blog.detail', {param: {id:1, name: 'leeluolee'}});
 地址会跳转到`#/app/blog/1?name=leeluolee`, 你可以发现未命名参数会直接拼接在url后方作为queryString 存在.
 
 
-__始终推荐在大型项目中使用go代替nav来进行跳转， 这样在路由规则发生变更时，就无需做大量重构__
+__在大型项目中始终推荐使用go代替nav来进行跳转， 这样在路由规则发生变更时，就无需做大量重构__
 
