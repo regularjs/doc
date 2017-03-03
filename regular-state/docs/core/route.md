@@ -62,7 +62,7 @@ manager.state('app.blog', {
 - __Return__ manager 
 
 
-当__第一个参数为字符串，第二参数空缺时__,方法成为get函数，此时返回路由节点
+当__第一个参数为字符串，第二参数空缺时__，方法成为get函数，此时返回路由节点
 
 ```js
 manager.state('app.blog');// 返回 {view:Blog, url: '/blog/:id'}

@@ -19,7 +19,7 @@ regular-state是基于 [Regular](https://github.com/regularjs/regular)组件库 
 - **异步路由**支持，每个生命周期都可以异步处理
 - 支持**异步View**加载(依赖模块系统支持)
 - **强大路径匹配**, 类express语法
-- 三种方案(history/hashchange/iframe轮训)的**自动降级与升级**
+- 三种方案(history/hashchange/iframe轮询)的**自动降级与升级**
 - 低版本支持(需引入Promise Polyfill)
 
 

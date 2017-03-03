@@ -23,7 +23,7 @@
 
 [**『点击查看DEMO』**](../../example/lifecycle-base.html#app/blog/detail)
 
-当我们切换url从 `app.blog.detail` 跳转到 `app.blog.edit` 时, 发生的钩子函数执行顺序如下
+当我们从url `app.blog.detail` 跳转到 `app.blog.edit` 时, 钩子函数执行顺序如下
 
 ```shell
 BlogDetail#leave
@@ -57,7 +57,7 @@ const Blog = Regular.extend({
 ```
 
 
-⚠️请注意，如果声明了resolve但是没有调用，跳转会被block,切记 
+⚠️请注意，如果声明了resolve但是没有调用，跳转会被block，切记 
 
 
 #### 2. 钩子函数执行后返回了一个[Promise对象](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise) 

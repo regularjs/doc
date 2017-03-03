@@ -1,2 +1,2 @@
 # doc
-All document will place here 
+All documents will be placed here 

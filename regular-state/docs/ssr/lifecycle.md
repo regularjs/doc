@@ -40,7 +40,7 @@ const routes = {
 当这个各路由节点组合而成首屏html和首屏data传递到浏览器端时. 组件重新激活的流程是
 
 1. 根据配置的firstData参数从全局拿到首屏数据, 以下称其为globalData
-2. 调用使用`new App({ mountNode: container, data: globalData.app )`方法激活第一层模块(container即你传入start的view参数)
+2. 调用`new App({ mountNode: container, data: globalData.app )`方法激活第一层模块(container即你传入start的view参数)
 3. 获得第一层模块`app`的r-view节点`appView`, `new Blog({mountNode: appView, data: globalData.app})` 激活第二层
 4. 依此类推实现第三层的激活
 
